@@ -1,0 +1,133 @@
+.overlay {
+    color: #fff;
+    position: absolute;
+    color: white;
+    left: 5rem;
+	margin-top: 2.5rem; 
+	z-index: 20; 
+}
+.overlay h1 {
+	font-size: 2rem; 
+    font-weight: 300;
+    margin-bottom: 0px;
+	width: 80%; 
+
+}
+.overlay h1 span {
+    font-weight: bold;
+}
+
+.overlay p {
+    line-height: 0.97;
+	font-size: 1rem; 
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    .overlay {
+        margin-top: 2rem;
+    }
+    .overlay h1 {
+        font-size: 2rem;
+		width: 60%;
+		
+    }
+    .overlay p {
+        width: 100%;
+        font-size: 1.2rem;
+	
+    }
+    .overlay h5 {
+        font-size: 1rem;
+    }
+    .img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+	  .overlay {
+        margin-top: 4rem;
+	
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+    .overlay {
+        top: 0rem;
+    }
+    .overlay h1 {
+        font-size: 3rem;
+	
+    }
+    .overlay p {
+        width: 80%;
+    }
+    .img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: auto;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+	
+	.overlay {
+		top: 1rem; 
+		
+	
+	}
+    .overlay h1 {
+		margin-top: 5rem; 
+        font-size: 4rem;
+		width: 80%; 
+    }
+
+    .overlay p {
+        width: 50%
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+	
+	.overlay {
+	
+	}
+	
+	.overlay h1 {
+        font-size: 7rem;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    .overlay {
+        top: 14rem;
+        left: 40rem;
+		height:50rem; 
+        bottom: 0;
+        right: 0;
+		
+    }
+    .overlay h1 {
+		margin-top: 0rem; 
+        font-size: 7rem;
+		width: 40%; 
+    }
+    .overlay p {
+        width: 30%
+    }
+}
+ 
+ 
