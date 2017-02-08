@@ -1,0 +1,32 @@
+/******************** List Page ********************/
+ 
+ 
+ /* How to get the boxes to have no padding in between them */
+ .row.no-gutter {
+     margin-left: 0;
+     margin-right: 0;
+ }
+ .row.no-gutter [class*='col-']:not(:first-child),
+ .row.no-gutter [class*='col-']:not(:last-child) {
+     padding-right: 0;
+     padding-left: 0;
+ }
+ /*Colored Content Boxes */
+ 
+ .content-block {
+     padding: 20px 30px;
+     text-align: center;
+     margin-bottom: 20px;
+     color: #fff;
+ }
+ 
+ .content-block a {
+	 color: #fff !important; 
+ }
+ .glyphicon {
+     font-size: 24px;
+ }
+
+.list-group-item:hover :focus, .list-group-item > a:hover {
+	background-color: transparent !important; 
+}
