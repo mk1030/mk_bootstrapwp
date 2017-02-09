@@ -30,14 +30,6 @@
 		
     }
     
-   
-    .img-responsive,
-    .thumbnail > img,
-    .thumbnail a > img,
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        height: 200px;
-    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -49,21 +41,13 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
-    .overlay {
-        top: 0rem;
-    }
+
     .overlay h1 {
         font-size: 3rem;
 	
     }
     
-    .img-responsive,
-    .thumbnail > img,
-    .thumbnail a > img,
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        height: auto;
-    }
+
 }
 
 /* Small Devices, Tablets */

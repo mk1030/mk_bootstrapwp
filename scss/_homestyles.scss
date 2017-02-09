@@ -1,55 +1,64 @@
-/* Black and White Striped Divider */
+
  
  .divider {
-     background-image: url(../img/stripes.png);
+     @include pattern-bg($pattern);
      height: 2rem;
  }
+
+
  /* General Section Styles */
- 
  .section_heading {
      font-weight: 900;
      font-size: 2.5em;
-     color: #222222;
+     color: $section_title_text; 
      text-transform: uppercase;
      text-align: center;
  }
  .section_line {
      width: 15%;
-     background-color: #000;
+     background-color: $section_title_underline; 
      height: 0.25rem;
      margin-top: -5px;
  }
- /* Section 1*/
+
  
- .section_admin {
-	padding-top: 6rem; 
-	background-color: #FFF; 
- }
- 
- 
- 
+
+ .section {
+padding-top: 6rem; 
+background-color: #FFF; 
+background-color: $homepage_section_bg_color;
+width: 100%;
+margin: auto;
+
+
+  /* Section 1*/
  .section_1 {
-     background-color: #FFFFFE;
      text-align: center;
-     padding-top: 3rem;
-     padding-bottom: 2rem;
-     width: 100%;
+  
  }
  
  
  /*Section 2 */
  .section_2 {
-     background-color: #FFFFFE;
-     padding-top: 3rem;
-     width: 100%;
-     margin: auto;
+     
  }
+
+
+ /*Section 3 */
  .section_3 {
-     padding-top: 3rem;
- }
- /* Background Images on Home Page  */
  
- .bg {
+   
+ }
+
+
+
+
+ }
+ 
+
+
+ /* Background Images on Home Page  */
+ .section_bg {
      text-align: center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -58,12 +67,6 @@
 	 height: 300px; 
  }
 
-  .bg2 {
-     text-align: center;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-	 height: 300px; 
- }
+ 
+ 
  

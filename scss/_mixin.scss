@@ -1,4 +1,4 @@
-//added to basic(page-heading bg color)
-@mixin page-heading-bg($file) {
+//added to basic(page-heading bg color), added to homestyles for section dividers
+@mixin pattern-bg($file) {
      background-image: url(../img/#{$file});
 }

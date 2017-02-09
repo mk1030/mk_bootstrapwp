@@ -25,13 +25,19 @@
      margin-top: 3rem;
  }
  .border {
-    @include page-heading-bg('stripes.png');
+    @include pattern-bg($pattern);
  }
  .border-text {
-     background-color: $black;
-     color: $white;
+     background-color: $page_heading_background;
+     color: $page_heading_text_color;
      display: inline-block;
      padding: 1rem;
      text-transform: uppercase;
      font-size: 40px;
+ }
+
+  .sidebar h3, .sidebar_heading {
+     background-color: $sidebar_background_color;
+     color: $sidebar_text_color; 
+     padding: 1rem;
  }

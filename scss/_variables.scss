@@ -1,8 +1,38 @@
-//added to basic(page-heading bg color), footer bg color
-$black: #000; 
 
-//added to basic(page heading text color)
-$white: #fff; 
+//added to homestyles section bg colors
+$homepage_section_bg_color:  #FFFFFE;
+$section_title_underline: #000;
+$section_title_text: #000;
 
-//added to footer (footer text)
-$darkgrey: #5a5a5a;
+
+
+//pattern-bg parameter. Currently used in basic, homestyles.
+$pattern:'stripes.png';
+
+
+//basic page elements
+$page_heading_background: #000;
+$page_heading_text_color: #fff;
+$sidebar_background_color: #000;
+$sidebar_text_color: #fff;
+
+
+//footer
+
+$footer_background: #000;
+$footer_text: #5a5a5a;
+
+//added to timeline
+$timeline_line: #ccc;
+
+$timeline_date: #414141;
+
+$timeline_date_border: #212121;
+
+$timeline_date_text_color: #ededed;
+
+$timeline_circle_icons: #000;
+
+$timeline_headers: #000;
+
+$timeline_headers_text: #000;

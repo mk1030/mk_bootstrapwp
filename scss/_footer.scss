@@ -6,14 +6,14 @@ html {
      /* Margin bottom is footer height */
      margin-bottom: 80px;
      height: 100%;
-     color: $darkgrey
+     color: $footer_text;
  }
  .footer {
      position: absolute;
      bottom: 0;
      width: 100%;
      height: 90px;
-     background-color: $black;
+     background-color: $footer_background;
  }
 
  
