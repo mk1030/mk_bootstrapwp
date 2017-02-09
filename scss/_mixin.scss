@@ -1,0 +1,4 @@
+//added to basic(page-heading bg color)
+@mixin page-heading-bg($file) {
+     background-image: url(../img/#{$file});
+}

@@ -13,27 +13,23 @@
      max-width: 100%;
  }
  
-
- 
- 
- /* Sliders */
  
  img.slide {
 	width: 100%; 
 }
  
-  /******************** List & Single Page ********************/
- /* Page Heading */
+
+ /* Page Heading Styles */
  
  .border-container {
      margin-top: 3rem;
  }
  .border {
-     background-image: url(../img/stripes.png);
+    @include page-heading-bg('stripes.png');
  }
  .border-text {
      background-color: $black;
-     color: white;
+     color: $white;
      display: inline-block;
      padding: 1rem;
      text-transform: uppercase;

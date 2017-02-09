@@ -17,10 +17,7 @@
     font-weight: bold;
 }
 
-.overlay p {
-    line-height: 0.97;
-	font-size: 1rem; 
-}
+
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
@@ -32,14 +29,8 @@
 		width: 60%;
 		
     }
-    .overlay p {
-        width: 100%;
-        font-size: 1.2rem;
-	
-    }
-    .overlay h5 {
-        font-size: 1rem;
-    }
+    
+   
     .img-responsive,
     .thumbnail > img,
     .thumbnail a > img,
@@ -65,9 +56,7 @@
         font-size: 3rem;
 	
     }
-    .overlay p {
-        width: 80%;
-    }
+    
     .img-responsive,
     .thumbnail > img,
     .thumbnail a > img,
@@ -91,9 +80,7 @@
 		width: 80%; 
     }
 
-    .overlay p {
-        width: 50%
-    }
+   
 }
 
 
@@ -125,9 +112,7 @@
         font-size: 7rem;
 		width: 40%; 
     }
-    .overlay p {
-        width: 30%
-    }
+   
 }
  
  

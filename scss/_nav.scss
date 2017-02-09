@@ -1,29 +1,4 @@
  
- .navbar-wrapper {
-     position: absolute;
-     top: 0;
-     right: 0;
-     left: 0;
-     z-index: 20;
- }
- /* Flip around the padding for proper display in narrow viewports */
- 
- .navbar-wrapper > .container {
-     padding-right: 0;
-     padding-left: 0;
- }
- .navbar-wrapper .navbar {
-     padding-right: 15px;
-     padding-left: 15px;
- }
- .navbar-wrapper .navbar .container {
-     width: auto;
- }
 
 
- .navbar-brand {
-     padding-left: 50px;
- }
- 
-
-
+/*NOTE TO CHANGE THE COLOR OF THE NAVIGATION to white REMOVE NAVBAR-INVERSE and ADD NAVBAR-DEFAULT JUST BY CHANGING THIS CLASS ALL THE LINK COLORS/HOVER COLORS/ETC WILL CHANGE ACCORDINGLY */
